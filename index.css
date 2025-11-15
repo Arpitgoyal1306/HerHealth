@@ -291,14 +291,14 @@ nav ul li a:hover {
 footer.last {
     background-color: hsl(20, 43%, 96%); 
     color: hsl(0, 0%, 27%);
-    padding: 40px 80px;
+    padding: 20px 80px;
     font-family: 'Delius', cursive;
 }
 .last-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 10px;
 }
 .last-img img {
     width: 70px;
