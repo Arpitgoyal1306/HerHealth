@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(251, 238, 238);
+}
+header {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: rgb(249, 229, 225);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.tab{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.tab img {
+    height: 60px;
+    width: auto;
+    border-radius: 50px;
+}
+.tab h1{
+    font-family: "Taprom", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(227, 122, 137);
+}
+nav ul {
+    border-radius: 10%;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+nav ul li a:hover {
+    color: rgb(227, 122, 137);
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #ffeef2, #fff6f8);
+}
+.hero h1 {
+    font-size: 2.6rem;
+    color: rgb(214, 88, 120);
+    margin-bottom: 12px;
+    font-family: "Delius", cursive;
+    text-shadow: 0 3px 8px rgba(255, 150, 170, 0.25);
+}
+.hero p {
+    font-size: 1.15rem;
+    color: rgb(90, 70, 80);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.info {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.info h2 {
+    font-size: 2.2rem;
+    color: rgb(214, 88, 120);
+    font-family: "Delius", cursive;
+    margin-bottom: 10px;
+}
+.info .divi {
+    width: 70px;
+    height: 3px;
+    background: rgb(227, 122, 137);
+    margin: 15px auto 25px;
+    border-radius: 6px;
+}
+.info p {
+    font-size: 1.15rem;
+    color: #5c4a55;
+    margin: 6px 0;
+}
+.info p strong {
+    color: rgb(214, 88, 120);
+}
+.contact-form {
+    padding: 60px 20px;
+    text-align: center;
+}
+.contact-form .container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.contact-form h2 {
+    font-size: 2rem;
+    color: rgb(208, 101, 132);
+    margin-bottom: 10px;
+}
+.contact-form .tagline {
+    color: rgb(90, 70, 80);
+    margin-bottom: 30px;
+}
+.contact .form {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.contact label {
+    font-size: 1rem;
+    color: rgb(80, 60, 70);
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    font-size: 1rem;
+    background-color: rgb(255, 250, 251);
+}
+.contact textarea {
+    height: 120px;
+}
+.btn {
+    background-color: rgb(227, 122, 137);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(200, 95, 112);
+    box-shadow: 0 0 10px rgba(227, 122, 137, 0.3);
+}
