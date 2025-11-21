@@ -179,10 +179,6 @@ nav ul li a:hover {
     max-width: 600px;
     margin: 20px auto;
 }
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
 footer.last {
     background-color: hsl(20, 43%, 96%); 
     color: hsl(0, 0%, 27%);
@@ -192,7 +188,6 @@ footer.last {
 .last-content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 10px;
 }
 .last-img img {

@@ -221,7 +221,6 @@ nav ul li a:hover {
 }
 .inspire {
   margin-bottom: 130px; 
-  clear: both;
 }
 .inspire {
     background-color: #fdeef4; 
@@ -297,7 +296,6 @@ footer.last {
 .last-content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 10px;
 }
 .last-img img {
@@ -350,6 +348,5 @@ footer.last {
 }
 .social-icons img:hover {
     background-color: rgb(243, 178, 178);
-    opacity: 0.9;
 }
 
