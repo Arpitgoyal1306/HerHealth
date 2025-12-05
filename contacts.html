@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contacts.css">
-    <script src="index.js"></script>
     <link rel="icon" type="images" href="images/logo.jpeg">
     <title>Her Health</title>
     <style>
@@ -49,7 +48,7 @@
         <h2>Reach Out to Us</h2>
         <p class="tagline">We appreciate you taking the time to reach out.</p>
 
-        <form class="contact">
+        <form class="contact" id="contactForm">
             <div class="form">
                 <label>Your Name</label>
                 <input type="text" placeholder="Enter your name" required>
@@ -67,9 +66,13 @@
 
             <button type="submit" class="btn">Send Message</button>
         </form>
+
+        <p id="formMessage" style="display:none; margin-top: 15px; font-weight: bold;"></p>
+
     </div>
     </section>
 
 
 </body>
+<script src="index.js"></script>
 </html>
