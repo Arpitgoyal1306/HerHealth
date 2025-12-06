@@ -142,14 +142,14 @@ h1 {
 
 .home-btn {
     display: inline-block;
-    background-color: rgb(227, 122, 137);
+    background-color: rgb(214, 126, 139);
     color: white;
     text-decoration: none;
     padding: 10px 25px;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 1rem;
     cursor: pointer;
-    font-family: "Delius", cursive;
+    font-family: 'Fuzzy Bubbles', sans-serif;
     transition: all 0.3s ease;
 }
 
