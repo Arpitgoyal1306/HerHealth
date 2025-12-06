@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(251, 238, 238);
+}
+header {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: rgb(249, 229, 225);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.tab{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.tab img {
+    height: 60px;
+    width: auto;
+    border-radius: 50px;
+}
+.tab h1{
+    font-family: "Taprom", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(227, 122, 137);
+}
+nav ul {
+    border-radius: 10%;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+nav ul li a:hover {
+    color: rgb(227, 122, 137);
+}
+
+
+h1 {
+    text-align: center;
+    color: #d06882;
+    margin-bottom: 20px;
+}
+
+.review-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#reviewText {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 1rem;
+}
+
+#postBtn {
+    margin-top: 10px;
+    background-color: #e27a8b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#postBtn:hover {
+    background-color: #c55d73;
+}
+
+.review-section {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.review-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f3b8c0;
+    border-radius: 50%;
+}
+
+.review-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+.back-home {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home-btn {
+    display: inline-block;
+    background-color: rgb(227, 122, 137);
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Delius", cursive;
+}
+
+.home-btn:hover {
+    background-color: rgb(200, 95, 112);
+    box-shadow: 0 0 10px rgba(227, 122, 137, 0.3);
+}
