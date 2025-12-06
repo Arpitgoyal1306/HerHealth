@@ -243,3 +243,249 @@ footer.last {
     opacity: 0.9;
 }
 
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 15px 40px;
+    }
+    
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .purpose {
+        margin: 40px 20px;
+        padding: 20px 25px;
+    }
+    
+    .story {
+        max-width: 90%;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    
+    .end {
+        max-width: 90%;
+        margin: 0 20px 60px;
+    }
+    
+    footer.last {
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+    
+    .tab h1 {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        font-size: 16px;
+    }
+    
+    .about h1 {
+        font-size: 1.5rem;
+    }
+    
+    .about p {
+        font-size: 0.95rem;
+    }
+    
+    .purpose {
+        font-size: 1rem;
+        margin: 30px 15px;
+        padding: 15px 20px;
+    }
+    
+    .offer h2 {
+        font-size: 1.8rem;
+        margin-top: 30px;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .story h2 {
+        font-size: 1.8rem;
+    }
+    
+    .story p {
+        font-size: 1rem;
+    }
+    
+    .end {
+        font-size: 1.1rem;
+        padding: 25px 30px;
+        margin: 0 15px 50px;
+    }
+    
+    .end p {
+        max-width: 100%;
+        padding: 15px;
+    }
+    
+    footer.last {
+        padding: 20px 20px;
+    }
+    
+    .last-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .last-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .last-link,
+    .last-contact {
+        text-align: center;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+    }
+    
+    .tab img {
+        height: 45px;
+    }
+    
+    .tab h1 {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 10px;
+    }
+    
+    nav ul li {
+        font-size: 14px;
+    }
+    
+    .about {
+        padding: 20px 15px;
+        border-radius: 0 0 30px 30px;
+    }
+    
+    .about h1 {
+        font-size: 1.3rem;
+    }
+    
+    .about p {
+        font-size: 0.9rem;
+        max-width: 95%;
+    }
+    
+    .purpose {
+        font-size: 0.95rem;
+        margin: 25px 10px;
+        padding: 15px;
+        border-left-width: 3px;
+    }
+    
+    .offer h2 {
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+    
+    .offer h2::after {
+        width: 50px;
+        height: 2px;
+    }
+    
+    .grid {
+        padding: 0 10px;
+        margin: 30px auto;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+    
+    .card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .card p {
+        font-size: 0.95rem;
+    }
+    
+    .story {
+        margin: 30px auto;
+    }
+    
+    .story h2 {
+        font-size: 1.5rem;
+    }
+    
+    .story p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .end {
+        font-size: 1rem;
+        padding: 20px;
+        margin: 0 10px 40px;
+    }
+    
+    .end p {
+        padding: 15px;
+        font-size: 0.95rem;
+    }
+    
+    footer.last {
+        padding: 20px 15px;
+    }
+    
+    .last-img img {
+        width: 60px;
+    }
+    
+    .last-link h4,
+    .last-contact h4 {
+        font-size: 1.1rem;
+    }
+    
+    .last-bottom {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+    
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        padding: 5px;
+    }
+}

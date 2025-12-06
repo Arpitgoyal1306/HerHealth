@@ -135,9 +135,11 @@ nav ul li a:hover {
     margin-top: 8px;
     font-size: 1rem;
     background-color: rgb(255, 250, 251);
+    box-sizing: border-box;
 }
 .contact textarea {
     height: 120px;
+    resize: vertical;
 }
 .btn {
     background-color: rgb(227, 122, 137);
@@ -147,8 +149,242 @@ nav ul li a:hover {
     border-radius: 25px;
     font-size: 1rem;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .btn:hover {
     background-color: rgb(200, 95, 112);
     box-shadow: 0 0 10px rgba(227, 122, 137, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 15px 40px;
+    }
+    
+    .hero {
+        padding: 50px 30px;
+    }
+    
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+        max-width: 90%;
+    }
+    
+    .info {
+        padding: 50px 30px;
+        max-width: 90%;
+    }
+    
+    .info h2 {
+        font-size: 2rem;
+    }
+    
+    .info p {
+        font-size: 1.1rem;
+    }
+    
+    .contact-form {
+        padding: 50px 30px;
+    }
+    
+    .contact-form .container {
+        max-width: 90%;
+    }
+    
+    .contact-form h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+    
+    .tab h1 {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        font-size: 16px;
+    }
+    
+    .hero {
+        padding: 45px 25px;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    
+    .info {
+        padding: 45px 25px;
+    }
+    
+    .info h2 {
+        font-size: 1.8rem;
+    }
+    
+    .info .divi {
+        width: 60px;
+        height: 2.5px;
+    }
+    
+    .info p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    
+    .contact-form {
+        padding: 45px 25px;
+    }
+    
+    .contact-form h2 {
+        font-size: 1.6rem;
+    }
+    
+    .contact-form .tagline {
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+    }
+    
+    .contact .form {
+        margin-bottom: 18px;
+    }
+    
+    .contact label {
+        font-size: 0.95rem;
+    }
+    
+    .contact input,
+    .contact textarea {
+        padding: 11px;
+        font-size: 0.95rem;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 13px 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+    }
+    
+    .tab img {
+        height: 45px;
+    }
+    
+    .tab h1 {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 10px;
+    }
+    
+    nav ul li {
+        font-size: 14px;
+    }
+    
+    .hero {
+        padding: 40px 20px;
+    }
+    
+    .hero h1 {
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+    }
+    
+    .hero p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        padding: 0 5px;
+    }
+    
+    .info {
+        padding: 40px 20px;
+    }
+    
+    .info h2 {
+        font-size: 1.5rem;
+    }
+    
+    .info .divi {
+        width: 50px;
+        height: 2px;
+        margin: 12px auto 20px;
+    }
+    
+    .info p {
+        font-size: 0.95rem;
+        margin: 5px 0;
+        padding: 0 5px;
+    }
+    
+    .contact-form {
+        padding: 40px 20px;
+    }
+    
+    .contact-form .container {
+        max-width: 100%;
+    }
+    
+    .contact-form h2 {
+        font-size: 1.4rem;
+        margin-bottom: 8px;
+    }
+    
+    .contact-form .tagline {
+        font-size: 0.9rem;
+        margin-bottom: 22px;
+    }
+    
+    .contact .form {
+        margin-bottom: 16px;
+    }
+    
+    .contact label {
+        font-size: 0.9rem;
+    }
+    
+    .contact input,
+    .contact textarea {
+        padding: 10px;
+        font-size: 0.9rem;
+        margin-top: 6px;
+    }
+    
+    .contact textarea {
+        height: 100px;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 0.95rem;
+    }
+    
+    #formMessage {
+        font-size: 0.9rem;
+    }
 }

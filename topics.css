@@ -145,11 +145,6 @@ nav ul li a:hover {
     padding: 60px 20px;
     text-align: center;
     margin-top: 40px;
-}
-.explore-btn {
-    padding: 60px 20px;
-    text-align: center;
-    margin-top: 40px;
     background-color: rgb(250, 230, 232);
 }
 .explore-btn h2 {
@@ -179,31 +174,6 @@ nav ul li a:hover {
 .explore-btn button:hover {
     background-color: rgb(200, 95, 112);
     box-shadow: 0 0 10px rgba(227, 122, 137, 0.3);
-}
-@media (max-width: 600px) {
-    .divs {
-        grid-template-columns: 1fr;
-        gap: 25px;
-    }
-}
-@media (max-width: 600px) {
-    .topics h1 {
-        font-size: 1.8rem;
-    }
-    .topics p {
-        font-size: 1rem;
-    }
-}
-@media (max-width: 600px) {
-    .explore-btn h2 {
-        font-size: 1.6rem;
-    }
-    .explore-btn p {
-        font-size: 1rem;
-    }
-    .explore-btn {
-        padding: 40px 20px;
-    }
 }
 footer.last {
     background-color: hsl(20, 43%, 96%); 
@@ -269,3 +239,286 @@ footer.last {
     opacity: 0.9;
 }
 
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 15px 40px;
+    }
+    
+    .topics {
+        max-width: 90%;
+        padding-top: 40px;
+    }
+    
+    .topics h1 {
+        font-size: 2rem;
+    }
+    
+    .topics p {
+        font-size: 1.1rem;
+    }
+    
+    .explore {
+        padding: 0 30px;
+    }
+    
+    .explore h2 {
+        font-size: 1.4rem;
+    }
+    
+    .divs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    .explore-btn {
+        padding: 50px 30px;
+    }
+    
+    .explore-btn h2 {
+        font-size: 1.8rem;
+    }
+    
+    .explore-btn p {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+    
+    footer.last {
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+    
+    .tab h1 {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        font-size: 16px;
+    }
+    
+    .topics {
+        padding-top: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .topics h1 {
+        font-size: 1.8rem;
+    }
+    
+    .topics p {
+        font-size: 1rem;
+    }
+    
+    .explore {
+        padding: 0 20px;
+    }
+    
+    .explore h2 {
+        font-size: 1.3rem;
+        padding: 0 10px;
+    }
+    
+    .divs {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 35px;
+    }
+    
+    .divs div {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .divs img {
+        height: 130px;
+    }
+    
+    .divs h3 {
+        font-size: 1.2rem;
+    }
+    
+    .divs p {
+        font-size: 0.9rem;
+    }
+    
+    .explore-btn {
+        padding: 40px 20px;
+    }
+    
+    .explore-btn h2 {
+        font-size: 1.6rem;
+        padding: 0 10px;
+    }
+    
+    .explore-btn p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    
+    footer.last {
+        padding: 20px 20px;
+    }
+    
+    .last-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .last-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .last-link,
+    .last-contact {
+        text-align: center;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+    }
+    
+    .tab img {
+        height: 45px;
+    }
+    
+    .tab h1 {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 10px;
+    }
+    
+    nav ul li {
+        font-size: 14px;
+    }
+    
+    .topics {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .topics h1 {
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+    }
+    
+    .topics p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    
+    .explore {
+        padding: 0 15px;
+        margin-top: 10px;
+    }
+    
+    .explore h2 {
+        font-size: 1.1rem;
+        padding: 0 5px;
+        line-height: 1.4;
+    }
+    
+    .divs {
+        gap: 20px;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    
+    .divs div {
+        padding: 18px;
+        max-width: 100%;
+    }
+    
+    .divs img {
+        height: 120px;
+    }
+    
+    .divs h3 {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+    
+    .divs p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+    
+    .divs button {
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
+    
+    .explore-btn {
+        padding: 35px 15px;
+        margin-top: 30px;
+    }
+    
+    .explore-btn h2 {
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+    }
+    
+    .explore-btn p {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+    
+    .explore-btn button {
+        padding: 10px 25px;
+        font-size: 0.95rem;
+    }
+    
+    footer.last {
+        padding: 20px 15px;
+    }
+    
+    .last-img img {
+        width: 60px;
+    }
+    
+    .last-link h4,
+    .last-contact h4 {
+        font-size: 1.1rem;
+    }
+    
+    .last-bottom {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+    
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        padding: 5px;
+    }
+}

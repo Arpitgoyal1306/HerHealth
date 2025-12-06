@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color:rgb(251, 238, 238);
 }
+
 header {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -350,3 +351,349 @@ footer.last {
     background-color: rgb(243, 178, 178);
 }
 
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 15px 40px;
+    }
+    
+    .wel {
+        padding: 50px 40px;
+    }
+    
+    .wel-sec h1 {
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+    
+    .wel-sec p {
+        font-size: 16px;
+    }
+    
+    .box {
+        padding: 60px 40px;
+    }
+    
+    .box h2 {
+        font-size: 32px;
+    }
+    
+    .box-main {
+        gap: 40px;
+    }
+    
+    .box1, .box2, .box3, .box4 {
+        width: 90%;
+        max-width: 500px;
+    }
+    
+    .inspire .story {
+        max-width: 90%;
+        font-size: 1.3rem;
+        padding: 0 20px;
+    }
+    
+    .btn-health h2 {
+        font-size: 2.2em;
+    }
+    
+    .btn-health p {
+        font-size: 1.2em;
+    }
+    
+    footer.last {
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+    
+    .tab h1 {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        font-size: 16px;
+    }
+    
+    .wel {
+        flex-direction: column;
+        padding: 40px 30px;
+        text-align: center;
+    }
+    
+    .wel-sec {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .wel-sec h1 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    
+    .wel-sec p {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    
+    .wel-img img {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    #head {
+        bottom: 15px;
+    }
+    
+    .box {
+        padding: 50px 20px;
+    }
+    
+    .box h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    
+    .box-main {
+        gap: 30px;
+    }
+    
+    .box1, .box2, .box3, .box4 {
+        width: 95%;
+        height: auto;
+        min-height: 200px;
+        padding: 20px;
+    }
+    
+    .box-main h3 {
+        font-size: 18px;
+    }
+    
+    .box-main p {
+        font-size: 14px;
+    }
+    
+    .inspire {
+        margin-top: 60px;
+        margin-bottom: 80px;
+        padding: 0 20px;
+    }
+    
+    .inspire h2 {
+        font-size: 1.6rem;
+    }
+    
+    .inspire .story {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+    
+    .btn {
+        padding: 60px 20px;
+    }
+    
+    .btn-health h2 {
+        font-size: 1.8em;
+        padding: 0 15px;
+    }
+    
+    .btn-health p {
+        font-size: 1.1em;
+        padding: 0 15px;
+    }
+    
+    .btn-health button {
+        font-size: 1.1em;
+        padding: 10px 25px;
+    }
+    
+    footer.last {
+        padding: 20px 20px;
+    }
+    
+    .last-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .last-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .last-link,
+    .last-contact {
+        text-align: center;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+    }
+    
+    .tab img {
+        height: 45px;
+    }
+    
+    .tab h1 {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 10px;
+    }
+    
+    nav ul li {
+        font-size: 14px;
+    }
+    
+    .wel {
+        padding: 30px 20px;
+    }
+    
+    .wel-sec h1 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+    
+    .wel-sec p {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    
+    .wel-sec button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .wel-img img {
+        max-width: 100%;
+    }
+    
+    #head {
+        font-size: 20px;
+        bottom: 10px;
+    }
+    
+    .box {
+        padding: 40px 15px;
+    }
+    
+    .box h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    
+    .box-main {
+        gap: 25px;
+    }
+    
+    .box1, .box2, .box3, .box4 {
+        width: 100%;
+        min-height: 180px;
+        padding: 15px;
+        border-width: 3px;
+    }
+    
+    .box-main h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    
+    .box-main p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .box-main button {
+        padding: 8px 18px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .inspire {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding: 0 15px;
+    }
+    
+    .inspire h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    
+    .inspire .story {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .inspire .story::before,
+    .inspire .story::after {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        padding: 50px 15px;
+    }
+    
+    .btn-health h2 {
+        font-size: 1.4em;
+        padding: 0 10px;
+    }
+    
+    .btn-health p {
+        font-size: 0.95em;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    
+    .btn-health button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+    
+    footer.last {
+        padding: 20px 15px;
+    }
+    
+    .last-img img {
+        width: 60px;
+    }
+    
+    .last-link h4,
+    .last-contact h4 {
+        font-size: 1.1rem;
+    }
+    
+    .last-bottom {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+    
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        padding: 5px;
+    }
+}
